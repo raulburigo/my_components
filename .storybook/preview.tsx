@@ -1,5 +1,5 @@
-import { StoryFn } from '@storybook/react'
-import { ThemeProvider } from '../src/lib/ThemeProvider'
+// import { StoryFn } from '@storybook/react'
+// import { ThemeProvider } from '../src/lib/ThemeProvider'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
