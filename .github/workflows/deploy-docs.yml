@@ -18,8 +18,11 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+      - name: Install Node.js dependencies
+        uses: pnpm/action-setup@v2
+        with:
+          version: 6.0.2
+        run: pnpm install
 
       - name: Build Storybook
         run: npm run build-storybook
